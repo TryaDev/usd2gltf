@@ -145,7 +145,7 @@ def handle_texture(
             else:
                 uv_idx = len(converter.material_uv_indices[mat_path])
                 logger.debug(
-                    "   - UsdPrimvarSampler: " + uv_map_name + " : " + str(uv_idx)
+                    "   - UsdPrimvarSampler: " + str(uv_map_name) + " : " + str(uv_idx)
                 )
 
             converter.material_uv_indices[mat_path][uv_map_name] = uv_idx
